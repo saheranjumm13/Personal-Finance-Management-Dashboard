@@ -48,12 +48,10 @@ Personal-Finance-Project/
 pip install -r requirements.txt
 
 Then run:
-
 streamlit run app.py
-🎯 Objective
 
+🎯 Objective
 The objective of this project is to provide an interactive way to monitor personal finances, identify spending patterns, and gain useful insights from transaction data.
 
 👩‍💻 Author
-
 Saheranjum Makandar
