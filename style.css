@@ -1,0 +1,60 @@
+/* Main App */
+.stApp{
+    background-color:#F5F7FA;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#1E293B;
+}
+
+/* KPI Cards */
+div[data-testid="metric-container"]{
+    background:#FFFFFF;
+    border-radius:15px;
+    padding:18px;
+    border-left:6px solid #2563EB;
+    box-shadow:0px 3px 12px rgba(0,0,0,.12);
+}
+
+/* Metric Text */
+div[data-testid="metric-container"] label{
+    color:#333333 !important;
+    font-size:15px;
+    font-weight:bold;
+}
+
+div[data-testid="metric-container"] div{
+    color:#000000 !important;
+}
+
+/* Titles */
+h1{
+    color:#1E3A8A;
+}
+
+h2,h3{
+    color:#2563EB;
+}
+
+/* Buttons */
+.stButton>button{
+    background:#2563EB;
+    color:white;
+    border-radius:10px;
+}
+
+.stButton>button:hover{
+    background:#1D4ED8;
+}
+
+/* Dataframe */
+[data-testid="stDataFrame"]{
+    background:white;
+}
+
+/* Tabs */
+button[data-baseweb="tab"]{
+    font-size:17px;
+    font-weight:bold;
+}
